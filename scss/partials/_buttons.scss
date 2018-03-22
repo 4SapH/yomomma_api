@@ -1,0 +1,19 @@
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+  background: $btn-bg;
+  color: $light;
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.24s;
+  font: {
+    weight: bold;
+  }
+
+  &:hover {
+    background: $btn-bg-hover;
+    color: $btn-bg;
+  }
+}

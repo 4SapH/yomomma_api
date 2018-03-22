@@ -1,0 +1,11 @@
+.modal {
+  margin: 20vh auto;
+  padding: 5vh;
+  width: 80vw;
+  max-width: 960px;
+  background: $light;
+
+  #joke-text {
+    transition: 1s;
+  }
+}
