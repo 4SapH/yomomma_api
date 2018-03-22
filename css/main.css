@@ -56,5 +56,7 @@ button {
   button:hover {
     background: #c0b296;
     color: #702713; }
+  button:focus {
+    outline: 0; }
 
 /*# sourceMappingURL=main.css.map */

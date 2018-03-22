@@ -16,4 +16,6 @@ button {
     background: $btn-bg-hover;
     color: $btn-bg;
   }
+
+  &:focus { outline:0; }
 }
